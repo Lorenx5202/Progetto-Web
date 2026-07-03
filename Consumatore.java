@@ -1,5 +1,5 @@
 public class Consumatore {
-    final LVL_PRIVILEGE = 1;
+    final int LVL_PRIVILEGE = 1;
     
     private Integer id;
     private String nome;
