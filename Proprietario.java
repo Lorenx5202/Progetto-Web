@@ -1,14 +1,11 @@
-public class Proprietario {
-    final int LVL_PRIVILEGE = 3;
+package model;
 
+public class Proprietario {
     private Integer id;
     private String nome;
     private String cognome;
 
-    public Proprietario(Integer id, String nome, String cognome) {
-        this.id = id;
-        this.nome = nome;
-        this.cognome = cognome;
+    public Proprietario() {
     }
 
     public Integer getId() {
@@ -34,5 +31,4 @@ public class Proprietario {
     public void setCognome(String cognome) {
         this.cognome = cognome;
     }
-}
 }

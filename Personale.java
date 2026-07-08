@@ -1,14 +1,11 @@
-public class Personale {
-    final int LVL_PRIVILEGE = 2;
+package model;
 
+public class Personale {
     private Integer id;
     private String nome;
     private String cognome;
 
-    public Personale(Integer id, String nome, String cognome) {
-        this.id = id;
-        this.nome = nome;
-        this.cognome = cognome;
+    public Personale() {
     }
 
     public Integer getId() {
@@ -34,5 +31,4 @@ public class Personale {
     public void setCognome(String cognome) {
         this.cognome = cognome;
     }
-
 }
